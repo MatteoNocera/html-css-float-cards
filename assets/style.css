@@ -1,0 +1,18 @@
+/* #region Default rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+:root {
+    --mot-title-color: rgb(229, 49, 112);
+    --mot-card-color: rgb(69, 177, 222);
+    --mot-link-color: rgb(15, 14, 23);
+}
+
+/* #endregion Default Rules */
