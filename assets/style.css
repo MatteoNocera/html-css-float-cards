@@ -58,6 +58,7 @@ p {
     
     vertical-align:text-top;
     float: left;
+    border-radius: 3%;
     
     
     
@@ -75,6 +76,7 @@ p {
 .card {
     background-color: var(--mot-card-color);
     box-shadow: 0 0 0.3rem 0.3rem var(--mot-shadow-color);
+    border-radius: 3%;
 }
 .text {
     float: left;
