@@ -16,3 +16,52 @@ body {
 }
 
 /* #endregion Default Rules */
+
+/* #region Utilities */
+
+h1 {
+    color: var(--mot-title-color);
+    margin: 1rem 0 2rem 0;
+}
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+
+
+/* #endregion Utilities */
+
+/* #region Main */
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.row .col {
+    /* background-color: var(--mot-card-color);
+    height: 10rem; */
+    border: 1px solid red;
+    width: calc(100% / 3);
+    float: left;
+    padding: 2rem;
+}
+
+.col img {
+    max-width: 50%;
+    vertical-align:text-top;
+    
+    
+}
+
+.col {
+    text-align: left;
+    line-height: 1rem;
+
+}
+
+/* #endregion Main */
