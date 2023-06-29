@@ -11,8 +11,9 @@ body {
 
 :root {
     --mot-title-color: rgb(229, 49, 112);
-    --mot-card-color: rgb(69, 177, 222);
-    --mot-link-color: rgb(15, 14, 23);
+    --mot-card-color: rgb(15, 14, 23);
+    --mot-link-color: rgb(69, 177, 222);
+    --mot-shadow-color: rgb(206, 206, 205)
 }
 
 /* #endregion Default Rules */
@@ -30,7 +31,9 @@ h1 {
     clear: both;
 }
 
-
+p {
+    margin-bottom: 1rem;
+}
 
 /* #endregion Utilities */
 
@@ -45,15 +48,17 @@ h1 {
 .row .col {
     /* background-color: var(--mot-card-color);
     height: 10rem; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: calc(100% / 3);
-    float: left;
+    
     padding: 2rem;
 }
 
 .col img {
-    max-width: 50%;
+    
     vertical-align:text-top;
+    float: left;
+    
     
     
 }
@@ -61,7 +66,31 @@ h1 {
 .col {
     text-align: left;
     line-height: 1rem;
+    float: left;
+    color: white;
+    
 
 }
+
+.card {
+    background-color: var(--mot-card-color);
+    box-shadow: 0 0 0.3rem 0.3rem var(--mot-shadow-color);
+}
+.text {
+    float: left;
+    padding: 1rem;
+}
+
+.name {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+a {
+    color: var(--mot-link-color);
+    text-decoration: none;
+}
+
+
 
 /* #endregion Main */
