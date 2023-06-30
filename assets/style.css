@@ -23,6 +23,7 @@ body {
 h1 {
     color: var(--mot-title-color);
     margin: 1rem 0 1.5rem 0;
+    font-size: 3rem;
 }
 
 .clearfix::after {
@@ -33,11 +34,11 @@ h1 {
 
 p, a {
     
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .subtitle {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 /* #endregion Utilities */
@@ -52,7 +53,7 @@ p, a {
 
 .row .col {
     width: calc(100% / 3);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .col img {
@@ -79,21 +80,26 @@ p, a {
     background-color: var(--mot-card-color);
     box-shadow: 0 0 0.3rem 0.3rem var(--mot-shadow-color);
     border-radius: 3%;
-    height: 5rem;
+    height: 7rem;
 }
 .text {
     float: left;
-    padding: 0.7rem;
+    padding: 1rem;
 }
 
 .name {
     font-weight:bold;
-    margin-bottom: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
 
 a {
     color: var(--mot-link-color);
     text-decoration: none;
+}
+
+.role {
+    margin-bottom: 0.5rem;
 }
 
 
